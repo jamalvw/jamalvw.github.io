@@ -4,13 +4,14 @@
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link href="https://fonts.googleapis.com/css2?family=Noto+Sans&display=swap" rel="stylesheet">
+    <link href="./styles/style.css" rel="stylesheet">
     <title>Jamal Williams</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
 </head>
 <body>
     <nav class="navbar bg-primary">
         <div class="container d-flex justify-content-start gap-4">
-            <a class="navbar-brand fw-bold" href="#about">Jamal Williams</a>
+            <a class="navbar-brand fw-bold" href="#">Jamal Williams</a>
             <a class="nav-link" href="#projects">Projects</a>
             <a class="nav-link" href="#skills">Skills</a>
             <a class="nav-link" href="#contact">Contact</a>
@@ -26,7 +27,7 @@
             <h1 class="fw-bold">Projects</h1>
             <div class="container mt-4 text-start border border-black border-opacity-50 p-4 rounded bg-success-subtle bg-gradient d-flex gap-2">
                 <a class="nav-link" href="https://boogaverse.web.app/" target="_blank">
-                    <img width="600px" class="img-thumbnail" alt="BoogaVerse" src="./media/projects/boogaverse.jpg"/>
+                    <img class="img-project" alt="BoogaVerse" src="./media/projects/boogaverse.jpg"/>
                 </a>
                 <div class="container">
                     <h2 class="fw-bold"><a class="nav-link" href="https://boogaverse.web.app/" target="_blank">BoogaVerse</a></h2> 
@@ -40,8 +41,8 @@
                 </div>
             </div>
             <div class="container mt-4 text-start border border-black border-opacity-50 p-4 rounded bg-primary-subtle bg-gradient d-flex gap-2">
-                <a class="nav-link" href="https://github.com/jamalvw/duelcord/" target="_blank">
-                    <img width="600px" class="img-thumbnail" alt="DUELCORD" src="./media/projects/duelcord.png"/>
+                <a class="nav-link" href="https://github.com/jamalvw/duelcord" target="_blank">
+                    <img class="img-project" alt="DUELCORD" src="./media/projects/duelcord.jpg"/>
                 </a>
                 <div class="container">
                     <h2 class="fw-bold"><a class="nav-link" href="https://github.com/jamalvw/duelcord" target="_blank">DUELCORD</a></h2> 
@@ -54,47 +55,61 @@
                     </p>
                 </div>
             </div>
+            <div class="container mt-4 text-start border border-black border-opacity-50 p-4 rounded bg-gray-subtle bg-gradient d-flex gap-2">
+                <a class="nav-link" href="https://jamalvw.github.io/tictactoe" target="_blank">
+                    <img class="img-project" alt="Tic-Tac-Toe" src="./media/projects/tictactoe.jpg"/>
+                </a>
+                <div class="container">
+                    <h2 class="fw-bold"><a class="nav-link" href="https://jamalvw.github.io/tictactoe" target="_blank">Tic-Tac-Toe</a></h2> 
+                    <h3 class="fw-light">Simple Tic-Tac-Toe browser game</h3>
+                    <h5><a href="https://jamalvw.github.io/tictactoe">GitHub</a> <a href="https://www.github.com/jamalvw/tictactoe">GitHub</a></h5>
+                    <p>
+                        - Developed using JavaScript as part of The Odin Project curriculum<br>
+                        - Allows playing against a CPU or another player locally<br>
+                    </p>
+                </div>
+            </div>
         </div>
         <div class="container" id="skills">
             <h1 class="fw-bold">Skills & Tools</h1>
             <div class="container-sm mt-4" style="max-width: 600px;">
                 <div class="row">
                     <div class="col gap-2">
-                        <img width=100 class="img-fluid img-thumbnail bg-white" alt="HTML" src="./media/html5.webp">
+                        <img class="img-skill" alt="HTML" src="./media/html5.webp">
                         <p class="mt-1">HTML</p>
                     </div>
                     <div class="col gap-2">
-                        <img width=100 class="img-fluid img-thumbnail bg-white" alt="CSS" src="./media/css3.png">
+                        <img class="img-skill" alt="CSS" src="./media/css3.png">
                         <p class="mt-1">CSS</p>
                     </div>
                     <div class="col gap-2">
-                        <img width=100 class="img-fluid img-thumbnail bg-white" alt="JavaScript" src="./media/javascript.png">
+                        <img class="img-skill" alt="JavaScript" src="./media/javascript.png">
                         <p class="mt-1">JavaScript</p>
                     </div>
                     <div class="col gap-2">
-                        <img width=100 class="img-fluid img-thumbnail bg-white" alt="TypeScript" src="./media/typescript.png">
+                        <img class="img-skill" alt="TypeScript" src="./media/typescript.png">
                         <p class="mt-1">TypeScript</p>
                     </div>
                     <div class="col gap-2">
-                        <img width=100 class="img-fluid img-thumbnail bg-white" alt="Java" src="./media/java.png">
+                        <img class="img-skill" alt="Java" src="./media/java.png">
                         <p class="mt-1">Java</p>
                     </div>
                 </div>
                 <div class="row">
                     <div class="col gap-2">
-                        <img height=100 class="img-thumbnail bg-white" alt="React.js" src="./media/reactjs.png">
+                        <img class="img-skill" alt="React.js" src="./media/reactjs.png">
                         <p class="mt-1">React.js</p>
                     </div>
                     <div class="col gap-2">
-                        <img width=100 class="img-thumbnail bg-white" alt="Express.js" src="./media/express.png">
+                        <img class="img-skill" alt="Express.js" src="./media/express.png">
                         <p class="mt-1">Express.js</p>
                     </div>
                     <div class="col gap-2">
-                        <img width=100 class="img-thumbnail bg-white" alt="Spring" src="./media/spring.png">
+                        <img class="img-skill" alt="Spring" src="./media/spring.png">
                         <p class="mt-1">Spring</p>
                     </div>
                     <div class="col gap-2">
-                        <img width=100 class="img-thumbnail bg-white" alt="Bootstrap" src="./media/bootstrap-solid.svg">
+                        <img class="img-skill" alt="Bootstrap" src="./media/bootstrap-solid.svg">
                         <p class="mt-1">Bootstrap</p>
                     </div>
                 </div>
