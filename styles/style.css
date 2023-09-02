@@ -64,12 +64,3 @@ body {
 .project-container:hover {
     opacity: 1;
 }
-
-.fade-in-element {
-    opacity: 0;
-    transition: opacity 250ms ease-in-out;
-}
-
-.fade-in-element.visible {
-    opacity: 1;
-}
