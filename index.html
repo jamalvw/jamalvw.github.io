@@ -19,14 +19,16 @@
             </div>
         </div>
     </nav>
-    <div style="margin-top: 100px;" class="text-center d-flex justify-content-between flex-column gap-4">
+    <div style="padding-top: 80px;" class="text-center d-flex justify-content-between flex-column gap-4">
         <div class="container" id="about">
             <h1 class="fw-bold">Jamal Williams<h1>
             <h2 class="fw-normal">Full-Stack Software Engineer</h2>
             <p>@ Fredericksburg, Virginia</p>
-            <a class="btn btn-primary" href="media/cv.pdf">Resume</a>
-            <a class="btn btn-secondary" href="http://github.com/jamalvw">GitHub</a>
-            <a class="btn btn-secondary" href="mailto:jamalvw0@gmail.com">Contact</a>
+            <div class="mt-3 d-flex gap-2 justify-content-center">
+                <a class="btn btn-primary" href="media/cv.pdf">Resume</a>
+                <a class="btn btn-secondary" href="http://github.com/jamalvw">GitHub</a>
+                <a class="btn btn-secondary" href="mailto:jamalvw0@gmail.com">Contact</a>
+            </div>
         </div>
         <div id="projects">
             <div class="text-start">
@@ -36,70 +38,93 @@
                         <img src="./media/projects/urbancart.jpg" alt="UrbanCart dashboard" class="project-image" />
                         <div class="project-overlay"></div>
                         <div class="project-text">
-                            <h1 class="fw-bold">UrbanCart</h1>
+                            <p><b>Latest Project</b> (August 2023)</p>
+                            <h1>UrbanCart</h1>
                             <h2 class="fw-light">Modern Ecommerce Platform</h2>
-                            <p>Manage and analyze your online stores with ease.</p>
+                            <p>E-commerce dashboard developed using <b>NextJS</b>, <b>NodeJS</b>, and <b>MySQL</b>.<br>
+                                Allows sellers to manage and analyze their stores, displaying sales data with <b>Recharts</b> and integrating simple checkout solutions with <b>Stripe</b>.
+                            </p>
                         </div>
                     </a>
                 </div>
-                <!-- Booga -->
-                <div class="row gap-3 p-4 rounded">
-                    <div class="col-sm-4">
-                        <a class="nav-link" href="https://boogaverse.web.app" target="_blank">
-                            <img class="img-project" alt="Booga" src="./media/projects/boogaverse.jpg"/>
-                        </a>
+                <div class="container d-flex flex-column p-4 gap-4">
+                    <!-- Booga -->
+                    <div class="row gap-3">
+                        <div class="col-sm-4">
+                            <a class="nav-link" href="https://boogaverse.web.app" target="_blank">
+                                <img class="img-project" alt="Booga" src="./media/projects/boogaverse.jpg"/>
+                            </a>
+                        </div>
+                        <div class="col-sm-7">
+                            <h2 class="fw-bold">
+                                <a class="nav-link" href="https://boogaverse.web.app/" target="_blank">Booga Social</a>
+                            </h2> 
+                            <h4 class="fw-light">Social Media Application</h4>
+                            <h5>
+                                <a href="https://boogaverse.web.app/" target="_blank">Website</a>
+                                <a href="https://www.github.com/jamalvw/booga" target="_blank">GitHub</a>
+                            </h5>
+                            <p>
+                                A social media application project using React, Firebase, which implements a RESTful API to streamline retrieval and manipulation of user data.
+                            </p>
+                        </div>
                     </div>
-                    <div class="col-sm-7">
-                        <h2 class="fw-bold">
-                            <a class="nav-link" href="https://boogaverse.web.app/" target="_blank">Booga</a>
-                        </h2> 
-                        <h4 class="fw-light">Social Media Application</h4>
-                        <h5>
-                            <a href="https://boogaverse.web.app/">Website</a>
-                            <a href="https://www.github.com/jamalvw/booga">GitHub</a>
-                        </h5>
-                        <p>
-                            Social media platform that allows users to sign up, create posts, and engage with others' content.
-                        </p>
+                    <!-- Osu4J -->
+                    <div class="row gap-3">
+                        <div class="col-sm-4">
+                            <a class="nav-link" href="https://www.github.com/jamalvw/osu4j" target="_blank">
+                                <img class="img-project" alt="Osu4J" src="./media/projects/osu4j.jpg"/>
+                            </a>
+                        </div>
+                        <div class="col-sm-7">
+                            <h2 class="fw-bold">
+                                <a class="nav-link" href="https://www.github.com/jamalvw/osu4j" target="_blank">Osu4J</a>
+                            </h2> 
+                            <h4 class="fw-light">osu!api v2 Wrapper for Java</h4>
+                            <h5>
+                                <a href="https://www.github.com/jamalvw/osu4j" target="_blank">GitHub</a>
+                            </h5>
+                            <p>
+                                An API wrapper project for osu!api v2 written in Java, allowing services and apps to interact with osu! API with a robust caching algorithm, improving response times handling game data.
+                            </p>
+                        </div>
                     </div>
-                </div>
-                <!-- Osu4J -->
-                <div class="row gap-3 p-4 rounded">
-                    <div class="col-sm-4">
-                        <a class="nav-link" href="https://www.github.com/jamalvw/osu4j" target="_blank">
-                            <img class="img-project" alt="Osu4J" src="./media/projects/osu4j.png"/>
-                        </a>
+                    <!-- DUELCORD -->
+                    <div class="row gap-3">
+                        <div class="col-sm-4">
+                            <a class="nav-link" href="https://github.com/jamalvw/duelcord" target="_blank">
+                                <img class="img-project" alt="DUELCORD" src="./media/projects/duelcord.jpg"/>
+                            </a>
+                        </div>
+                        <div class="col-sm-7">
+                            <h2 class="fw-bold"><a class="nav-link" href="https://github.com/jamalvw/duelcord" target="_blank">DUELCORD</a></h2> 
+                            <h4 class="fw-light">Discord Bot Application</h4>
+                            <h5>
+                                <a href="https://www.github.com/jamalvw/duelcord" target="_blank">GitHub</a>
+                            </h5>
+                            <p>
+                                Turn-based 1v1 battle game built entirely on Discord.<br>
+                            </p>
+                        </div>
                     </div>
-                    <div class="col-sm-7">
-                        <h2 class="fw-bold">
-                            <a class="nav-link" href="https://www.github.com/jamalvw/osu4j" target="_blank">Osu4J</a>
-                        </h2> 
-                        <h4 class="fw-light">osu!api v2 Java Wrapper</h4>
-                        <h5>
-                            <a href="https://www.github.com/jamalvw/osu4j">GitHub</a>
-                        </h5>
-                        <p>
-                            RESTful API Java wrapper for osu! that allows web services and apps to interact with osu!api v2.<br>
-                            A modular, extensible design with a robust caching algorithm for handling big data.
-                        </p>
-                    </div>
-                </div>
-                <!-- DUELCORD -->
-                <div class="row gap-3 p-4 rounded">
-                    <div class="col-sm-4">
-                        <a class="nav-link" href="https://github.com/jamalvw/duelcord" target="_blank">
-                            <img class="img-project" alt="DUELCORD" src="./media/projects/duelcord.jpg"/>
-                        </a>
-                    </div>
-                    <div class="col-sm-7">
-                        <h2 class="fw-bold"><a class="nav-link" href="https://github.com/jamalvw/duelcord" target="_blank">DUELCORD</a></h2> 
-                        <h4 class="fw-light">Discord Bot Application</h4>
-                        <h5><a href="https://www.github.com/jamalvw/duelcord">GitHub</a></h5>
-                        <p>
-                            Turn-based 1v1 battle game built entirely on Discord.<br>
-                            Use unique skills, powerful items, and brains to defeat your opponent before they defeat you.<br>
-                            Developed as a passion project since 2018.
-                        </p>
+                    <!-- Tic-Tac-Toe -->
+                    <div class="row gap-3">
+                        <div class="col-sm-4">
+                            <a class="nav-link" href="https://github.com/jamalvw/tictactoe" target="_blank">
+                                <img class="img-project" alt="Tic-Tac-Toe" src="./media/projects/tictactoe.jpg"/>
+                            </a>
+                        </div>
+                        <div class="col-sm-7">
+                            <h2 class="fw-bold"><a class="nav-link" href="https://github.com/jamalvw/tictactoe" target="_blank">Tic-Tac-Toe</a></h2> 
+                            <h4 class="fw-light">Simple Browser Game</h4>
+                            <h5>
+                                <a href="https://jamalvw.github.io/tictactoe/" target="_blank">Website</a>
+                                <a href="https://www.github.com/jamalvw/tictactoe" target="_blank">GitHub</a>
+                            </h5>
+                            <p>
+                                A simple Tic-Tac-Toe game for browsers.
+                            </p>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -168,7 +193,7 @@
                 <strong>+ more!</strong>
             </div>
         </div>
-        <div class="container" id="contact">
+        <footer class="container mb-5" id="contact">
             <div class="row">
                 <div class="col">
                     <a href="https://www.github.com/jamalvw">github.com/jamalvw</a>
@@ -180,7 +205,7 @@
                     <a href="https://www.linkedin.com/in/jamalvw">linkedin.com/in/jamalvw</a>
                 </div>
             </div>
-        </div>
+        </footer>
     </div>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous"></script>
     <script src="script.js"></script>
