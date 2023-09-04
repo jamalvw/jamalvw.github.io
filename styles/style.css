@@ -6,8 +6,7 @@ body {
 .img-project {
     object-fit: cover;
     width: 100%;
-    min-height: 250px;
-    padding: 10px:
+    height: 250px;
     border: 1px solid #444;
     border-radius: 8px;
 }
@@ -23,7 +22,8 @@ body {
 .project-container {
     position: relative;
     overflow: hidden;
-    height: 250px; /* Adjust this to your desired height */
+    padding: 20px;
+    min-height: 250px; /* Adjust this to your desired height */
 }
 
 .project-image {
